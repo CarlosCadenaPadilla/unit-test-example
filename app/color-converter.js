@@ -2,7 +2,7 @@ exports.rgbToHex = function(red, green, blue) {
 var redHex = red.toString(16);
 var greenHex = green.toString(16);
 var blueHex = blue.toString(16);
-6
+
 return pad(redHex) + pad(greenHex) + pad(blueHex);
 };
 exports.hexToRgb = function(hex) {
